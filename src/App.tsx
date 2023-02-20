@@ -158,7 +158,7 @@ function Background({backgroundPosition} : IBackground) {
 function Header() {
 
 	return (
-		<header className="absolute left-0 right-0 top-0 px-4">
+		<header className="absolute z-50 left-0 right-0 top-0 px-4">
 
 			<h1 className="flex items-center justify-between py-4 w-full text-xl">
 				<div className="flex items-center gap-2">
@@ -169,8 +169,13 @@ function Header() {
 				</div>
 
 				<div className="flex items-center gap-2">
-					<span className="material-icons">code</span>
-					<span className="material-icons">person_outline</span>
+					<a href="https://github.com/kaye360/space-app" target="_blank" className="text-gray-200">
+						<span className="material-icons">code</span>
+					</a>
+
+					<a href="https://joshkaye.ca" target="_blank" className="text-gray-200">
+						<span className="material-icons">person_outline</span>
+					</a>
 				</div>
 			</h1>
 

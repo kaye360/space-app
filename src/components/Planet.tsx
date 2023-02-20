@@ -75,7 +75,7 @@ export default function Planet(
     return (
         <section className="w-full h-screen flex flex-col items-center justify-evenly" >
 
-            <h2 className="flex gap-8 items-center [&>*]:w-[200px] min-h-[3rem] text-2xl font-space  transition-all duration-500" style={headingStyle}>
+            <h2 className="flex gap-0 md:gap-8 items-center md:[&>*]:w-[200px] min-h-[3rem] text-2xl font-space transition-all duration-500" style={headingStyle}>
 
                 { planetList.map( (planet, index) => (
 

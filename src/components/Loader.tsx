@@ -11,7 +11,7 @@ export default function Loader() {
                 { cellGenerator.map( () => <GridCell /> )}
             </div>
 
-            <div className="text-6xl font-space animate-pulse animate-loading-text">
+            <div className="text-6xl font-space  animate-loading-text">
                 Loading...
             </div>
         </div>

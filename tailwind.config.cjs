@@ -38,7 +38,12 @@ module.exports = {
           '100%' : { opacity : '0.9', background : 'transparent' }
         },
         'loading-text' : {
-          '100%' : { opacity : '0' }
+          '0%' : { opacity : '1' },
+          '20%' : { opacity : '0.5' },
+          '40%' : { opacity : '1' },
+          '60%' : { opacity : '0.5' },
+          '80%' : { opacity : '1'},
+          '100%' : { opacity : '0', display : 'none' }
         }
       }
     },
